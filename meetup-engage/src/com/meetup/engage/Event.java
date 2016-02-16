@@ -1,7 +1,5 @@
 package com.meetup.engage;
 
-import java.util.Date;
-
 public class Event {  
 	private String name = "";
 	private String id = "";
@@ -12,7 +10,7 @@ public class Event {
 		this.id = aID;
 		this.time = aTime;
 	}
-  
+	
     public String getName() {  
         return name;  
     }
@@ -23,9 +21,5 @@ public class Event {
   
     public long getEpoch() {
     	return time;
-    }
-    
-    public Date getDate() {
-    	return new Date(time);
     }
 }

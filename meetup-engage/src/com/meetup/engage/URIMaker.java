@@ -26,8 +26,17 @@ public class URIMaker {
 		uri.setPath(aPath);
 	}
 	
-	public void setParam(String param, String value ) {
-		uri.setParameter(param, value);
+	public void setParam(String aParam, String aValue) {
+		uri.setParameter(aParam, aValue);
+	}
+	
+	public void setParam(String[] aParms, String[] aValues) {
+		int size = aParms.length;
+		if (size == aValues.length) {
+			for (int i=0; i<size; i++) {
+				uri.setParameter(aParms[i], aValues[i]);
+			}
+		}
 	}
 	
 	public String getResponse() {
