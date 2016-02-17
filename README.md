@@ -9,9 +9,10 @@ A full implementation would ingest all available user interactions (attendance, 
 This particular implementation is in no way complete, correct, efficient, reusable, well-architectured, well factored, etc... but it works... for the most part.
 
 On a personal level, it provided a project for me to spend time with Java 8 features.  Some aspects included are:
+
 1. Implement some streaming/MapReduce functions
-2. 2. Utilize core Java's new date library
-3. 3. Implement JavaFX components for charting
+2. Utilize core Java's new date library
+3. Implement JavaFX components for charting
 
 # Dependencies
 1. Apache HTTP: https://httpd.apache.org/download.cgi
