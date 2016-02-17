@@ -1,5 +1,4 @@
-# meetup-engage
-
+# engage-meetup
 
 # Purpose
 Build a REST interface to get multiple data sources and merge.  Present a graphical representation of data for analytic insight to the coordinator.
