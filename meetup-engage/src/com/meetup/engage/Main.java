@@ -1,7 +1,6 @@
 package com.meetup.engage;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 
 // Utilize streams
