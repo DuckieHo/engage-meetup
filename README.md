@@ -13,9 +13,9 @@ On a personal level, it provided a project for me to spend time with Java 8 feat
 3. Implement JavaFX components for charting
 
 # Dependencies
-Apache HTTP: https://httpd.apache.org/download.cgi
-JavaFX: Included in Java8 but must be added to classpath: .../Java/jre1.8.0_XX/lib/ext/jfxrt.jar
-JSON.simple: https://code.google.com/archive/p/json-simple/downloads
+1. Apache HTTP: https://httpd.apache.org/download.cgi
+2. JavaFX: Included in Java8 but must be added to classpath: .../Java/jre1.8.0_XX/lib/ext/jfxrt.jar
+3. JSON.simple: https://code.google.com/archive/p/json-simple/downloads
 
 # Considerations
 1. The provided Meetup Java library has not been maintained and will not be used:  https://code.google.com/archive/p/meetup-java-client/
